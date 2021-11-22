@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import Axios from 'axios'
-import ValueProvider,{useValue} from '../ValueContext';
+import {useValue} from '../ValueContext';
 
 const flagPost = (item) => {return 0}
 
@@ -75,7 +75,7 @@ const BBoards = () => {
 
         <button
           title="Flag"
-          onPress={() => flagPost(item)}>
+          onClick={() => flagPost(item)}>
           Flag
         </button>
       </div>

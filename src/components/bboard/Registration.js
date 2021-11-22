@@ -2,7 +2,7 @@
 import Axios from 'axios';
 import {useState,useEffect} from 'react';
 
-import ValueProvider,{useValue} from '../ValueContext';
+import {useValue} from '../ValueContext';
 
 const Registration = () => {
     const {currentValue,setCurrentValue} = useValue();
